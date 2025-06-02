@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    color: #fff;
+    background: #001422;
+}
+main {
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.circle {
+    position: absolute;
+    border-radius: 100%;
+}
+.circle1 {
+    top: -40px;
+    left: -50px;
+    height: 130px;
+    width: 130px;
+    background: radial-gradient(#EA8BFA, #7526F5);
+}
+.circle2 {
+    top: -60px;
+    right: -250px;
+    height: 330px;
+    width: 330px;
+    background: radial-gradient(#BD95FF, #A661FF, #6100FF);
+}
+.circle3 {
+    bottom: -100px;
+    left: -160px;
+    height: 220px;
+    width: 220px;
+    background: radial-gradient(#FED0FF, #7F00FF);
+}
+.box1 {
+    position: relative;
+}
+.box1 .box {
+    max-width: 400px;
+    height: 530px;
+    border: 1px solid #FFFFFF4D;
+    background: linear-gradient(#FFFFFF66, #FFFFFF1A);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 3px 17px -74px #00000033;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .card {
+    width: 90%;
+    height: 90%;
+    border: 1px solid #FFFFFF4D;
+    border-radius: 10px;
+}
+.card .image {
+    width: 100%;
+}
+.image img {
+    width: 100%;
+    height: 11%;
+    border-radius: 10px 10px 0 0;
+}
+.card .tags {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 14px;
+}
+.icon i {
+    font-size: 22px;
+}
+.card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 5px 15px 15px;
+}
+.card h3 {
+    font-size: 11px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 16px;
+}
+.card .stats {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 15px;
+}
+.stats .star {
+    width: 100px;
+}
+.stats .rating {
+    color: #F1C644;
+    font-size: 14px;
+}
+.stats .views {
+    color: #DBDBDB;
+    font-weight: 400;
+    font-size: 14px;
+}
+.card .line {
+    margin-top: 25px;
+    width: 100%;
+}
+.card .enrolled {
+    width: 120px;
+    margin: 16px 0 10px 115px;
+}
